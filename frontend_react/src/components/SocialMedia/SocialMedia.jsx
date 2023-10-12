@@ -1,18 +1,24 @@
 import React from "react";
-import { BsTwitter, BsInstagram } from "react-icons/bs";
-import { FaFacebookF } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
+import { BiLogoLinkedin } from "react-icons/bi";
+import { FiGithub } from "react-icons/fi";
+import { RiProfileLine } from "react-icons/ri";
+import Resume from "../../assets/NULL_DOC.pdf";
 
 const SocialMedia = () => {
   return (
     <div className="app__social">
-      <div>
-        <BsTwitter />
+      <div onClick={() => window.open(Resume)}>
+        <RiProfileLine />
       </div>
+      <a href="https://www.google.com" target="_blank">
+        <div>
+          <BiLogoLinkedin />
+        </div>
+      </a>
+
       <div>
-        <BsInstagram />
-      </div>
-      <div>
-        <FaFacebookF />
+        <FiGithub />
       </div>
     </div>
   );

@@ -46,14 +46,14 @@ const Footer = () => {
       <div className="app__footer-cards">
         <div className="app__footer-card">
           <img src={images.email} alt="email" />
-          <a href="mailto:hello@hari.com" className="p-text">
-            hari@gmail.com
+          <a href="mailto:hariharanarjunan@gmail.com" className="p-text">
+            hariharanarjunan@gmail.com
           </a>
         </div>
         <div className="app__footer-card">
           <img src={images.mobile} alt="phone" />
-          <a href="tel:+91 989898989" className="p-text">
-            +91 989898989
+          <a href="tel:+91 87543 *****" className="p-text">
+            +91 87543 *****
           </a>
         </div>
       </div>
@@ -92,7 +92,7 @@ const Footer = () => {
           </div>
           <button
             type="button"
-            className="p-text"
+            className="p-text disabled"
             onClick={handleSubmit}
             disabled={true}
           >
