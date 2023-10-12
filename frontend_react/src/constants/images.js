@@ -17,6 +17,9 @@ import redux from "../assets/redux.png";
 import sass from "../assets/sass.png";
 import typescript from "../assets/typescript.png";
 import vue from "../assets/vue.png";
+import my1 from "../assets/001.png";
+import my2 from "../assets/002.png";
+import my3 from "../assets/003.png";
 
 import about01 from "../assets/about01.png";
 import about02 from "../assets/about02.png";
@@ -72,4 +75,7 @@ export default {
   skype,
   spotify,
   hari,
+  my1,
+  my2,
+  my3,
 };
